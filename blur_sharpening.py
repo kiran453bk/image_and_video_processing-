@@ -30,12 +30,12 @@ else:
 
     plt.subplot(2,2,2)
     plt.imshow(avg_blur)
-    plt.title("Averaging Blur (5×5)")
+    plt.title("Averaging Blur (5x5)")
     plt.axis("off")
 
     plt.subplot(2,2,3)
     plt.imshow(gaussian_blur)
-    plt.title("Gaussian Blur (5×5)")
+    plt.title("Gaussian Blur (5x5)")
     plt.axis("off")
 
     plt.subplot(2,2,4)
